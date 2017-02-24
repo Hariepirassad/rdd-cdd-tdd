@@ -1,7 +1,12 @@
 # cli-weather
 
-> Explication de Cli.js
+> Explination de Cli.js
 
-Enregistre les données de la météo recueilli dans un objet et affiche la température du lieu de l'objet:
-- Soit en °C
-- Soit en °F
+Check the weather for your city from your terminal:
+-  In °C
+-  In °F
+
+
+## Licence
+
+[Uncopyrighted](http://zenhabits.net/uncopyright/)

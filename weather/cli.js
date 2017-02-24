@@ -7,6 +7,10 @@ const updateNotifier = require('update-notifier');
 const pkg = require('./package.json');
 const weather = require('./');
 
+/**
+ * Represents an object
+ *
+ */
 const cli = meow({
 	help: [
 		'Usage',
@@ -25,12 +29,20 @@ const cli = meow({
 	]
 });
 
+/**
+ * Represents a function to convert Farenheit to Celcius.
+ *
+ */
 function _toCelcius(temp) {
 	return Math.round(((temp - 32) * 5) / 9);
 }
 
 updateNotifier({ pkg}).notify();
 
+/**
+ * Function to get results from the object and print the Weather in the command line
+ *
+ */
 weather(cli.input, (err, result) => {
 	if (err) {
 		console.log(chalk.bold.red(err));
