@@ -41,7 +41,8 @@ updateNotifier({ pkg}).notify();
 
 /**
  * Function to get results from the object and print the Weather in the command line
- *
+ *@param {string} cli.input - The object.
+ *@param {function} callback - The callback function.
  */
 weather(cli.input, (err, result) => {
 	if (err) {
