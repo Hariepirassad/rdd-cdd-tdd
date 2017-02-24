@@ -6,8 +6,14 @@ Check the weather for your city from your terminal:
 -  In °C
 -  In °F
 
-# About MEAW library
+# About Meaw library
 https://github.com/sindresorhus/meow/
+
+# About Chalk
+https://github.com/chalk/chalk
+
+# About updateNotifier
+https://github.com/NousDev/updatenotifier
 
 ## Licence
 
